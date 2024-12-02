@@ -15,6 +15,7 @@ import { takeUntil } from 'rxjs/operators';
   selector: 'opencde-client-discover-opencde-api',
   templateUrl: './discover-opencde-api.component.html',
   styleUrls: ['./discover-opencde-api.component.scss'],
+  standalone: false,
 })
 export class DiscoverOpencdeApiComponent implements OnInit, OnDestroy {
   isLoading = true;

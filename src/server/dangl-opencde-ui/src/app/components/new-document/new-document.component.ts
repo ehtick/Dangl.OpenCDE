@@ -22,6 +22,7 @@ import { first } from 'rxjs/operators';
   selector: 'opencde-new-document',
   templateUrl: './new-document.component.html',
   styleUrls: ['./new-document.component.scss'],
+  standalone: false,
 })
 export class NewDocumentComponent implements OnInit, OnDestroy {
   private unsubscribe: Subject<void> = new Subject<void>();

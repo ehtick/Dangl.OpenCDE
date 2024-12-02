@@ -13,6 +13,7 @@ import { version } from '../../version';
   selector: 'opencde-site-header',
   templateUrl: './site-header.component.html',
   styleUrls: ['./site-header.component.scss'],
+  standalone: false,
 })
 export class SiteHeaderComponent implements OnInit, OnDestroy {
   preReleaseVersion: string = '';

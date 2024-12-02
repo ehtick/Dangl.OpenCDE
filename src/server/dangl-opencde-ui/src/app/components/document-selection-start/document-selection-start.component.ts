@@ -10,6 +10,7 @@ import { first } from 'rxjs/operators';
   selector: 'opencde-document-selection-start',
   templateUrl: './document-selection-start.component.html',
   styleUrls: ['./document-selection-start.component.scss'],
+  standalone: false,
 })
 export class DocumentSelectionStartComponent implements OnInit {
   constructor(

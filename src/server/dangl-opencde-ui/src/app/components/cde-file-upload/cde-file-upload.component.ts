@@ -25,6 +25,7 @@ import { ProjectsService } from '../../services/projects.service';
   selector: 'opencde-cde-file-upload',
   templateUrl: './cde-file-upload.component.html',
   styleUrls: ['./cde-file-upload.component.scss'],
+  standalone: false,
 })
 export class CdeFileUploadComponent implements OnInit, OnDestroy {
   @ViewChild(MatSort, { static: true }) private sort: MatSort | null = null;

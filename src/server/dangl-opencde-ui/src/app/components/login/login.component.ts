@@ -6,6 +6,7 @@ import { AuthenticationService } from '../../services/authentication.service';
   selector: 'opencde-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
+  standalone: false,
 })
 export class LoginComponent implements OnInit {
   processingLoginResponse = true;

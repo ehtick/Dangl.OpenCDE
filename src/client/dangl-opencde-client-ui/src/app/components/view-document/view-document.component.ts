@@ -19,6 +19,7 @@ import {
   selector: 'opencde-client-view-document',
   templateUrl: './view-document.component.html',
   styleUrls: ['./view-document.component.scss'],
+  standalone: false,
 })
 export class ViewDocumentComponent implements OnInit, OnDestroy {
   isLoading = true;

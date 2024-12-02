@@ -18,6 +18,7 @@ import { PaginationResult } from 'ng-lightquery';
   selector: 'opencde-documents',
   templateUrl: './documents.component.html',
   styleUrls: ['./documents.component.scss'],
+  standalone: false,
 })
 export class DocumentsComponent implements OnInit, OnDestroy {
   private unsubscribe: Subject<void> = new Subject<void>();

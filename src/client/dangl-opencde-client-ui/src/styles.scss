@@ -1,8 +1,8 @@
-@import "@dangl/angular-material-shared/styles/material-style";
-@import "@dangl/angular-material-shared/styles/material-variables";
+@use "@dangl/angular-material-shared/styles/material-style" as a;
+@use "@dangl/angular-material-shared/styles/material-variables" as *;
 
 // Those are for the ngx-toastr notifications
-@import "ngx-toastr/toastr";
+@use "ngx-toastr/toastr" as b;
 
 html,
 body {

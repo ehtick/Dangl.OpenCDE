@@ -16,6 +16,7 @@ import { Subject } from 'rxjs';
   selector: 'opencde-new-project',
   templateUrl: './new-project.component.html',
   styleUrls: ['./new-project.component.scss'],
+  standalone: false,
 })
 export class NewProjectComponent implements OnInit, OnDestroy {
   private unsubscribe: Subject<void> = new Subject<void>();

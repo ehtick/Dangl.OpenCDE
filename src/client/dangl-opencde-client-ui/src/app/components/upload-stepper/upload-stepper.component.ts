@@ -10,6 +10,7 @@ import { takeUntil } from 'rxjs/operators';
   selector: 'opencde-client-upload-stepper',
   templateUrl: './upload-stepper.component.html',
   styleUrls: ['./upload-stepper.component.scss'],
+  standalone: false,
 })
 export class UploadStepperComponent implements OnInit, OnDestroy {
   hasSetBaseAddress = false;

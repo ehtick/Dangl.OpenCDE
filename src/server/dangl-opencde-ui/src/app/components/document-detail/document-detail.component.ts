@@ -16,6 +16,7 @@ import { Subject } from 'rxjs';
   selector: 'opencde-document-detail',
   templateUrl: './document-detail.component.html',
   styleUrls: ['./document-detail.component.scss'],
+  standalone: false,
 })
 export class DocumentDetailComponent implements OnInit, OnDestroy {
   projectId: string | null = null;
