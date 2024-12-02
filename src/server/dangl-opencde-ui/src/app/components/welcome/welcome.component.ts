@@ -10,6 +10,7 @@ import { takeUntil } from 'rxjs/operators';
   selector: 'opencde-welcome',
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.scss'],
+  standalone: false,
 })
 export class WelcomeComponent implements OnInit, OnDestroy {
   userInfo: UserInfo | null = null;

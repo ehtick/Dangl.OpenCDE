@@ -12,6 +12,7 @@ import { takeUntil } from 'rxjs/operators';
   selector: 'opencde-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
+  standalone: false,
 })
 export class AppComponent implements OnInit, OnDestroy {
   sideNavOpened = false;

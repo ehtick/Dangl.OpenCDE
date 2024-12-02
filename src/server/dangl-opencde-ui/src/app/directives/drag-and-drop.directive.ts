@@ -8,6 +8,7 @@ import {
 
 @Directive({
   selector: '[opencdeDragAndDrop]',
+  standalone: false,
 })
 export class DragAndDropDirective {
   @HostBinding('class.fileover') fileOver: boolean = false;

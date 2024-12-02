@@ -17,6 +17,7 @@ import { ProjectsService } from '../../services/projects.service';
   selector: 'opencde-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss'],
+  standalone: false,
 })
 export class ProjectsComponent implements OnInit, OnDestroy {
   @ViewChild(MatSort, { static: true }) private sort: MatSort | null = null;

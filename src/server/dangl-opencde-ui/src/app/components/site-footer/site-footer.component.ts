@@ -5,6 +5,7 @@ import { FooterOptions } from '@dangl/angular-material-shared';
   selector: 'opencde-site-footer',
   templateUrl: './site-footer.component.html',
   styleUrls: ['./site-footer.component.scss'],
+  standalone: false,
 })
 export class SiteFooterComponent {
   footerOptions: FooterOptions = {
