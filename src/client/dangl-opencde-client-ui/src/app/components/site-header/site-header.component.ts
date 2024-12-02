@@ -9,6 +9,7 @@ import { takeUntil } from 'rxjs/operators';
   selector: 'opencde-client-site-header',
   templateUrl: './site-header.component.html',
   styleUrls: ['./site-header.component.scss'],
+  standalone: false,
 })
 export class SiteHeaderComponent implements OnInit, OnDestroy {
   showPreReleaseHeader = false;

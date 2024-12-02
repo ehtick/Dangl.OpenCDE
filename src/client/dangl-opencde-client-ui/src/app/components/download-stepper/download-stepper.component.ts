@@ -7,6 +7,7 @@ import { MatStepper } from '@angular/material/stepper';
   selector: 'opencde-client-download-stepper',
   templateUrl: './download-stepper.component.html',
   styleUrls: ['./download-stepper.component.scss'],
+  standalone: false,
 })
 export class DownloadStepperComponent implements OnInit {
   hasSetBaseAddress = false;

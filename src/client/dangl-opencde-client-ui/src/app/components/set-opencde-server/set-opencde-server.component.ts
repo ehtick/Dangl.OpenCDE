@@ -9,6 +9,7 @@ import { MatDialog } from '@angular/material/dialog';
   selector: 'opencde-client-set-opencde-server',
   templateUrl: './set-opencde-server.component.html',
   styleUrls: ['./set-opencde-server.component.scss'],
+  standalone: false,
 })
 export class SetOpencdeServerComponent implements OnInit {
   serverBaseAddress: string | null = null;

@@ -8,6 +8,7 @@ import { MatDialogRef } from '@angular/material/dialog';
   selector: 'opencde-client-manage-openid-configs-modal',
   templateUrl: './manage-openid-configs-modal.component.html',
   styleUrls: ['./manage-openid-configs-modal.component.scss'],
+  standalone: false,
 })
 export class ManageOpenidConfigsModalComponent implements OnInit {
   private currentSettings: SettingsType | null = null;

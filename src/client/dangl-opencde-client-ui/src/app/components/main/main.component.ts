@@ -7,6 +7,7 @@ import { MatStepper } from '@angular/material/stepper';
   selector: 'opencde-client-main',
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
+  standalone: false,
 })
 export class MainComponent implements OnInit {
   hasSetBaseAddress = false;

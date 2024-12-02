@@ -13,6 +13,7 @@ import { combineLatest } from 'rxjs';
   selector: 'opencde-client-prepare-document-selection',
   templateUrl: './prepare-document-selection.component.html',
   styleUrls: ['./prepare-document-selection.component.scss'],
+  standalone: false,
 })
 export class PrepareDocumentSelectionComponent implements OnInit {
   @Output() onDocumentSelected = new EventEmitter<void>();

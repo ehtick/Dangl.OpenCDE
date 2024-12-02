@@ -31,6 +31,7 @@ import { MatDialog } from '@angular/material/dialog';
   selector: 'opencde-client-authenticate-api',
   templateUrl: './authenticate-api.component.html',
   styleUrls: ['./authenticate-api.component.scss'],
+  standalone: false,
 })
 export class AuthenticateApiComponent implements OnInit, OnDestroy {
   openIdForm: UntypedFormGroup;

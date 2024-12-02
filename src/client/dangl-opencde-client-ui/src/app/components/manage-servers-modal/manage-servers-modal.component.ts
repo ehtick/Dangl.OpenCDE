@@ -7,6 +7,7 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
   selector: 'opencde-client-manage-servers-modal',
   templateUrl: './manage-servers-modal.component.html',
   styleUrls: ['./manage-servers-modal.component.scss'],
+  standalone: false,
 })
 export class ManageServersModalComponent implements OnInit {
   savedServers: string[] = [];

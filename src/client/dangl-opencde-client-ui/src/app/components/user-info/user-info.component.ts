@@ -12,6 +12,7 @@ import { takeUntil } from 'rxjs/operators';
   selector: 'opencde-client-user-info',
   templateUrl: './user-info.component.html',
   styleUrls: ['./user-info.component.scss'],
+  standalone: false,
 })
 export class UserInfoComponent implements OnInit, OnDestroy {
   @Input() userInfo: UserInfo | null = null;

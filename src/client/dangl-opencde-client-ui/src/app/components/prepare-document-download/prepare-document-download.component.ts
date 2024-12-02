@@ -11,6 +11,7 @@ import { combineLatest } from 'rxjs';
   selector: 'opencde-client-prepare-document-download',
   templateUrl: './prepare-document-download.component.html',
   styleUrls: ['./prepare-document-download.component.scss'],
+  standalone: false,
 })
 export class PrepareDocumentDownloadComponent implements OnInit {
   constructor(
